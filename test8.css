@@ -1,0 +1,117 @@
+* {
+
+    word-wrap: break-word;
+    font-family: "Sofia Sans", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.flex-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+}
+
+.flex-item {
+    
+    margin: 1.5rem;
+    border-style: dashed;
+    width: 21rem;
+    height: 21rem;
+
+}
+
+#products-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 65%;
+
+}
+
+#cart-box {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+h {
+
+    font-size: large;
+    margin-left: 45rem;
+    
+}
+
+p {
+
+    font-size: medium;
+    padding: 0.8rem;
+    text-align: center;
+
+}
+
+img {
+
+    width: 7rem;
+    height: 4rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+
+}
+
+.add-cart {
+
+    padding: 0.8rem;
+    margin-left: 7rem;
+
+}
+
+#cart-box img {
+
+    margin-left: 7rem;
+    margin-top: 0rem;
+
+}
+
+.clear-cart {
+
+    height: 2.5rem;
+    width: 5rem;
+    margin-right: 18rem;
+    margin-top: 2rem;
+    margin-left: -8rem;
+
+}
+
+.pay-cart {
+    
+    height: 2.5rem;
+    width: 5rem;
+    margin-top: -2.5rem;
+    margin-left: 20rem;
+
+}
+
+.order-item {
+
+    display: flex;
+    gap: 1rem;
+    margin-left: -10rem;
+    margin-top: 3rem;
+    border-style: dashed;
+    width: 40rem;
+    height: 6rem;
+    
+}
+
+.lineButtons {
+
+    width: 2rem;
+    height: 2rem;
+
+}
